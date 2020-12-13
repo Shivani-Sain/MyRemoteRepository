@@ -1,0 +1,4 @@
+create database sportyshoes;
+use sportyshoes;
+create table admin(ID int not null,admin_id varchar(2000),admin_pwd varchar(200),primary key(ID) );
+insert into admin values(1,"sain.shivani@ymail.com","123456");
